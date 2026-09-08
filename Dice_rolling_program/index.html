@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice rolling program</title>
+  </head>
+  <body>
+    <div id="dice_roll_container">
+      <h1>Dice rolling program</h1>
+
+      <label class="text"># of dice:</label>
+      <input class="btn" id="n_dice" type="number" min="1" />
+      <button class="btn" id="roll" onclick="diceRoll()">Roll</button><br />
+
+      <p id="dice_value"></p>
+      <br />
+      <p id="dice_images"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
